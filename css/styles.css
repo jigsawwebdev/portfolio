@@ -1,0 +1,360 @@
+
+
+.container {
+	margin: 0 auto;
+	position: relative;
+	width: 1170px;
+}
+
+/****************** Header Styles ***********************/
+header {
+	background-color: #f4f0ed;
+	width: 100%;
+
+}
+
+/********** Logo Styles *********/
+#logo {
+	float: left;
+	height: 100px;
+	margin: 50px 0 0 100px;
+	position: relative;
+	width: 350px;
+}
+
+#logo img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+#logo h1 {
+	color: #107896;
+	left: 70px;
+	font-family: 'Carter One', cursive;
+	font-size: 72px;
+	position: absolute;	
+	top: 0;
+}
+
+#logo h1 a {
+	color: #107896;
+	text-decoration: none;
+}
+
+#logo h2 {
+	color: #3c3c3c;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	left: 165px;
+	position: absolute;	
+	top: 65px;
+}
+
+/********** Mainnav Styles *********/
+#mainnav {
+	float: left;
+}
+
+#mainnav ul {
+	margin: 80px 0 0 190px;
+}
+
+#mainnav ul li {
+	display: inline-block;
+	padding: 0 0 0 30px;
+}
+
+#mainnav ul li a {
+	color: #3c3c3c;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#mainnav #active {
+	color: #b34325;
+}
+
+/********** Hero Area Styles *********/
+#hero {
+	clear: both;
+	height: 550px;
+	padding: 0 0 50px 0;
+	position: relative;
+}
+
+#description {
+	float: left;
+}
+
+#description p {
+	color: #3c3c3c;
+	font-family: 'Atma', cursive;
+	font-size: 72px;
+	font-weight: 600;
+	margin: 130px 0 0 100px;
+}
+
+#description p span {
+	color: #107896;	
+}
+
+#hero #guy_image {
+	float: right;
+	margin: 50px 100px 0 0;
+}
+
+
+/****************** Services Styles ***********************/
+#services {
+	background-color: #b34325;
+	height: 550px;
+	width: 100%;
+}
+
+#services h2 {
+	color: #f4f0ed;
+	font-family: 'Atma', cursive;
+	font-size: 48px;
+	font-weight: 600;
+	padding: 50px 0 50px 0 ;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#webdev, #responsive, #wordpress {
+	float: left;
+	margin: 0 0 100px 0;
+	width: 200px;
+
+}
+
+#webdev {
+	margin: 0 0 0 100px;
+}
+
+#responsive {
+	margin: 0 0 0 190px;
+}
+
+#wordpress {
+	margin: 0 0 0 200px;
+}
+
+#webdev h3, #responsive h3, #wordpress h3 {
+	color: #f4f0ed;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 50px 0 0 0 ;
+	text-align: center;
+}
+
+#webdev h3 {
+	padding: 80px 0 0 0;
+}
+
+/****************** Portfolio Styles ***********************/
+#portfolio {
+	background-color: #f4f0ed;
+	height: 820px;
+	width: 100%;
+}
+
+#portfolio h2 {
+	color: #3c3c3c;
+	font-family: 'Atma', cursive;
+	font-size: 48px;
+	font-weight: 600;
+	padding: 50px 0 50px 0 ;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#work_row_1, #work_row_2 {
+	position: relative;
+	width: 100%;
+}
+
+#project1, #project2, #project3, #project4, #project5, #project6 {
+	background-color: #3c3c3c;
+	float: left;
+	height: 250px;
+	width: 370px;
+	margin: 0 0 50px 0;
+}
+
+#project1, #project2, #project4, #project5 {
+	margin: 0 30px 0 0;
+}
+
+#project1 h3, #project2 h3, #project3 h3, #project4 h3, #project5 h3, #project6 h3 {
+	color: #3c3c3c;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 0 0 0 ;
+	text-align: center;
+}
+
+/****************** About Styles ***********************/
+#about {
+	background-color: #b34325;
+	width: 100%;
+}
+
+#about h2 {
+	color: #f4f0ed;
+	font-family: 'Atma', cursive;
+	font-size: 48px;
+	font-weight: 600;
+	padding: 50px 0 50px 0 ;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#about p {
+	color: #f4f0ed;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 27px;
+	line-height: 35px;
+	padding: 0 0 100px 0;
+}
+
+/****************** Contact Styles ***********************/
+#contact {
+	background-color: #107896;
+	height: 780px;
+}
+
+#contact h2 {
+	color: #f4f0ed;
+	font-family: 'Atma', cursive;
+	font-size: 48px;
+	font-weight: 600;
+	padding: 50px 0 50px 0 ;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#image_laptop, #contact_form, #image_guy {
+	float: left;
+}
+
+#image_laptop {
+	margin: 0 0 0 100px;
+	width: 260px;
+}
+
+#image_guy {
+	padding: 115px 0 0 100px;
+	width: 260px;
+}
+
+#contact_form {
+	width: 450px;
+}
+
+label {
+	color: #f4f0ed;
+	font-family: 'Yantramanav', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+input, textarea {
+	background-color: #f4f0ed;
+	border: none;   
+    box-sizing: border-box;
+    color: #b34325;
+    font-family: 'Yantramanav', sans-serif;
+	font-size: 20px;
+    margin: 5px 0 15px 0;
+    padding: 12px 15px 12px 15px;
+    width: 100%;
+}
+
+input::placeholder {
+	color: #b34325;
+}
+
+textarea {
+	overflow-y: scroll;
+}
+
+#submit {
+	background-color: #b34325;
+	border: none;
+	color: #f4f0ed;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 27px;
+	margin: 20px 0 0 0 ;
+	text-transform: uppercase;
+	width: 450px;
+}
+
+/****************** Footer Styles ***********************/
+footer {
+	background-color: #f4f0ed;
+	height: 200px;
+}
+
+#social_nav {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#socialnav ul {
+	padding: 50px 0 50px 0;
+}
+
+#socialnav ul li {
+	display: inline-block;
+	padding: 0 0 0 40px;
+}
+
+#socialnav ul li:first-child {
+	display: inline-block;
+	padding: 0 0 0 0;
+}
+
+#socialnav ul li a {
+	color: #b34325;
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+footer p {
+	color: #b34325;
+	display: inline-block;
+	font-family: 'Yantramanav', sans-serif;
+}
+
+#footer_info {
+	width: 100%;
+	margin: 0 0 50px 0;
+}
+
+#copyright {
+	font-size: 14px;
+	text-align: left;
+}
+
+#my_email {
+	font-size: 18px;
+	padding: 0 0 0 210px;
+}
+
+#footer_info #credits {
+	padding: 0 0 0 315px;
+}
+
+#credits a, #my_email a {
+	color: #b34325;
+	text-decoration: none;
+}
